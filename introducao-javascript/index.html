@@ -6,10 +6,7 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script>
-			console.log ('Olá mundo');
-			alert('Olá mundo');
-		</script>
+		
 
 	</head>
 	<body>
@@ -76,6 +73,10 @@
 
 			</section>
 		</main>
-
+		<script>
+			var tituloPagina = document.querySelector("h1");
+			tituloPagina.textContent = "Mudança de titulo";
+			console.log(tituloPagina);
+		</script>
 	</body>
 </html>
